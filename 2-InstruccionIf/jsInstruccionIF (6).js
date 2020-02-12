@@ -1,8 +1,9 @@
 function mostrar()
 {
-//tomo la edad  
+    var edad
+    var estado
+        document.getElementById("edad").value= edad
+        document.getElementById("")
+}
 
 
-
-
-}//FIN DE LA FUNCIÓN

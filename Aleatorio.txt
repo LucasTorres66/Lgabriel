@@ -1,0 +1,42 @@
+//La función Math.random devuelve un número aleatorio mayor que cero y menor que uno.
+//   var num;
+     num = Math.random();  //Resultados posibles: 0.5, 0.12, 0,7, 0.99
+
+//La función Math.floor() redondea al entero inferior.
+//   var num;
+//   num = 4.65;
+//   var num2;
+//   num2 = Math.floor(num);
+//   num2 vale ahora 4
+//Combinando los dos métodos.
+
+//Descripción de la función:
+//   var num;
+     num = Math.floor(Math.random() * ((máximo+1) - mínimo) + mínimo);
+//Ejemplo:
+//   var num = Math.floor((Math.random() * (11-5))+5);
+//num es ahora un número entre 5 y 10, ambos incluidos.
+
+
+
+switch
+******
+
+//-switch realiza las comparaciones usando el operador === (igual estricto). 
+//-Se permite evaluar tanto números como cadenas de texto o valores booleanos. 
+//-Switch solo permite evaluar valores concretos de la expresión: 
+//       no permite evaluar intervalos (pertenencia de la expresión a un intervalo o rango) 
+//       ni expresiones compuestas.
+
+//-También se admiten situaciones como switch (edad+1>18) donde la expresión devuelve un booleano
+                    /*switch(laHora>11){
+                        case true:
+                            alert("Es verdadero");
+                            break;
+                        case false:        
+                            alert("Es falso");
+                            break;
+                        }
+                    */
+//-o case 'armario': alert ("Ha introducido armario"); break; 
+//  donde se evalúa la igualdad con un texto.

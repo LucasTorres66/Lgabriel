@@ -1,18 +1,21 @@
 function mostrar()
 {
-/*var clave = prompt("ingrese el número clave.");
-while(clave != "utn750")
-{
-    clave=prompt("Contraseña erronea","Ingrese la clave ");
-}
-alert("Correcto !");
 
-//FIN DE LA FUNCIÓN
-*/
-var clave
-do {
-    clave=prompt("Ingrese su contraseña");
+var clave = prompt("ingrese el número clave.");
+while(clave!= "utn750" )
+{
     
-} while (clave != "utn750");
-alert("Correcto !"); 
+    clave=prompt("Ingrese la clave");
+    
 }
+/*
+var clave;
+do
+{
+ clave=prompt("Ingrese la clave");   
+}while(clave !="utn750")
+*/
+alert("Clave correcta !");
+
+}// != Diferente 
+
